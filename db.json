@@ -1,0 +1,42 @@
+{
+  "efetiva": {
+    "sucesso": true
+  },
+  "cancela": {
+    "sucesso": true
+  },
+  "altera": {
+    "sucesso": true
+  },
+  "consulta": [
+    { 
+      "idInternoAutorizacao": "88880",
+      "IdOperacaoCliente": "123e4567", 
+      "Data_Registro": "2020-08-06" ,
+      "NrContrato": 1212223333,
+      "NrBanco": 121,
+      "NrAgencia": 1,
+      "NrConta": 547621,
+      "OrdemPrioridade": 1,
+      "AutorizaUsoLimiteCredito": true,
+      "AutorizaDebitoParcial": false,
+      "PrazoIndeterminado": false,
+      "Dt_Final": "2021-01-30",
+      "Status": "P"
+    },
+    { 
+      "idInternoAutorizacao": "88880",
+      "IdOperacaoCliente": "987f4566", 
+      "Data_Registro": "2020-08-06" ,
+      "NrContrato": 1212223333,
+      "NrBanco": 237,
+      "NrAgencia": 1632,
+      "NrConta": 312811,
+      "OrdemPrioridade": 2,
+      "AutorizaUsoLimiteCredito": false,
+      "AutorizaDebitoParcial": false,
+      "PrazoIndeterminado": true,      
+      "Status": "P"
+    }
+  ]
+}
